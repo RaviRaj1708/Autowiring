@@ -11,7 +11,8 @@ public class ByConstTest {
 	{
 		 ApplicationContext context = new ClassPathXmlApplicationContext("ByConst.xml");
 	      TextEditor te = (TextEditor) context.getBean("textEditor");
-	      te.spellCheck(); 
+	      te.spellCheck();
+	      System.out.println("done");
 		
 
 	}
